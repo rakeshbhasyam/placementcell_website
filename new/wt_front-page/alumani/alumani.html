@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="alumani.css">
+
+</head>
+<body>
+
+	<div class="hero">
+	    <nav >
+			<div class="nav-links">
+				<ul>
+					<li><a href="mainpage.html">HOME</a></li>
+					<li><a href="#footer">ABOUT</a></li>
+					<li><a href="card.html">COMPANIES</a></li>
+					<li><a href="alumani/alumani.html">ALUMANI</a></li>
+					
+				</ul>
+			</div>
+		</nav>
+		<h1>ALUMANI<h1>
+		<div class="container">
+			<div class="indicator">
+				<span class="btn active"></span>
+				<span class="btn"></span>
+				<span class="btn"></span>
+				<span class="btn"></span>
+			</div>
+			<div class="testimonial">
+			<div class="slide-row" id="slide">
+				<div class="slide-col">
+					<div class="user-text">
+						<p>HE IS WORKING IN AMAZON </p>
+						<h3>priya</h3>
+						<p>developer</p>
+					</div>
+					<div class="user-img">
+						<img src="1.jpg">
+					</div>
+				</div>
+				<div class="slide-col">
+					<div class="user-text">
+						<p>HE IS WORKING IN AMAZON </p>
+						<h3>priya</h3>
+						<p>developer</p>
+					</div>
+					<div class="user-img">
+						<img src="2.jpg">
+					</div>
+				</div>
+				<div class="slide-col">
+					<div class="user-text">
+						<p>HE IS WORKING AMAZON </p>
+						<h3>RAKESH</h3>
+						<p>developer</p>
+					</div>
+					<div class="user-img">
+						<img src="3.jpg">
+					</div>
+				</div>
+				<div class="slide-col">
+					<div class="user-text">
+						<p>HE IS WORKING AMAZON </p>
+						<h3>RAKESH</h3>
+						<p>developer</p>
+					</div>
+					<div class="user-img">
+						<img src="4.jpg">
+					</div>
+				</div>
+			</div>
+			</div>
+	    </div>
+	</div>
+<script>
+	var btn =document.getElementsByClassName('btn');
+	var slide =document.getElementById('slide');
+
+	btn[0].onclick = function () {
+		slide.style.transform ="translatex(0px)";
+	}
+	btn[1].onclick = function () {
+		slide.style.transform ="translatex(-800px)";
+	}
+	btn[2].onclick = function () {
+		slide.style.transform ="translatex(-1600px)";
+	}
+	btn[3].onclick = function () {
+		slide.style.transform ="translatex(-2400px)";
+	}
+</script>
+</body>
+</html>

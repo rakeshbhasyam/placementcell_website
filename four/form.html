@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Testing Form</title>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="form.css"
+    </head>
+    <body>
+        <div class="container">
+            <header>Registration</header>
+
+            <form action="formimage/image.php" method="POST" enctype="multipart/form-data">
+                <div class="form first">
+                    <div class="personal-details">
+                        <span class="title">Personal Details</span>
+
+
+                        <div class="fields">
+                            <div class="input-field">
+                                
+                                <input type="text" name="name" placeholder="Enter Your Name" required/>
+                            </div>
+                            
+                            <div class="input-field">
+                                
+                                <input type="text" name="mail" placeholder="Enter Your Email Address" required/>
+                            </div>
+                        </div>
+                        <div class="fields">
+                            <div class="input-field">
+                                
+                                <input type="text" name="mobile" placeholder="Enter Your Mobile Number" required/>
+                            </div>
+                            
+                            <div class="input-field">
+                                <label>LinkedIn</label>
+                                <input type="text" name="linkedin" placeholder="Enter Your LinkedIN ID" required/>
+                            </div>
+                            </div>
+                            
+                            
+                            
+
+                            <div class="fields">
+                            <div class="gender">
+                                <label>Gender:</label><br>
+                                <input type="radio" name="gen" value="Male">
+                                <label for="male">Male</label>
+                                <br>
+                                <input type="radio" name="gen" value="Female"/>
+                                <label for="male">Female</label>
+                                <br>
+                                <input type="radio"name="gen" value="I Prefer not to Say">
+                                <label for="I Prefer not to Say">I prefer not to say</label>
+                                <br>
+
+                            </div>
+                        </br>
+                            <div class="input-field" align="center">
+                                <label class="input-field" font-weight="Bold">Graduation In</label>
+                                <SELECT class="input-field" name="dept">
+                                    <option name="dept">ECE</option>
+                                    <option name="dept">CSE</option>
+                                    <option name="dept">CIVIL</option>
+                                    <option name="dept">MECH</option>
+                                    <option name="dept">MME</option>
+                                    <option name="dept">EEE</option>
+                                </select>
+
+                            </div>
+                            </div>
+                        </br>
+                            <div class="fields">
+                                <div class="input-field">
+                                <label>Birthday</label><br  >
+                                <input type="date" name="date"required/>
+                            </div>
+                            <div align="right">
+                            <h2>Upload Your Photo</h2><br>
+                            
+                                       
+      
+      
+                            <input type="file" name="image" /><br>
+                            </div>
+                            
+                        </div>
+                        
+         <p align="center">
+         <input type="submit" class="signin-button"/>
+         </p>
+                        </div>
+                    
+      
+                      
+               
+                
+            
+        </form>
+        </div>
+        
+    </body>
+    
+
+
+
+</html>

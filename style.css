@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Lato:wght@300&family=Poppins:wght@300&family=Roboto:wght@100;400;500;700&display=swap');
+.container{
+    background-image:url('h1.png');
+    height:100vh;
+    width:100vw;
+    background-size:cover;
+}
+.heading{
+    text-align:center;
+    color:white;
+    font-size:50px;
+    font-weight: bold;
+}
+.sub_head{
+    text-align:center;
+    color:whitesmoke;
+    font-size:30px;
+
+}
+.cen_head{
+    text-align:center;
+    color:black;
+    font-size:60px;
+    font-weight:900;
+}
+.com_but{
+    outline:none;
+    border:none;
+    curser:pointer;
+    width:20%;
+    height:57px;
+    border-radius:25px;
+    font-size:20px;
+    font:weight:700px;
+    font-family:"Lato",sans-serif;
+    color:white;
+    align:left;
+    background-color:black;
+    box-shadow:3px 3px 8px #b1b1b1,-3px -3px 8px #f;
+    margin:90px;
+
+}
+.stu_but{
+    outline:none;
+    border:none;
+    curser:pointer;
+    width:20%;
+    height:57px;
+    border-radius:25px;
+    font-size:20px;
+    font:weight:700px;
+    font-family:"Lato",sans-serif;
+    color:white;
+    text-align:center;
+    background-color:black;
+    box-shadow:3px 3px 8px #b1b1b1,-3px -3px 8px #f;
+    margin:90px;
+
+}
+.blur{
+    background-image:url('col2.png');
+    height:50vh;
+    width:50vw;
+    background-size:cover;
+    margin:25px;
+    height:45%;
+    width:75%;
+    outline:none;
+    border:none;
+    border-radius:15px;
+    box-shadow:0ch;
+}

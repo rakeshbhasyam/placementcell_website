@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+    height:100vh;
+    width:100vw;
+    
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    color:#555;
+    background-color: #ecf0f3;
+}
+.login-div {
+    width:430px;
+    height:600px;
+    padding:60px 35px 35px 35px;
+    border-radius:40px;
+    background-color: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbcbd1,-13px -13px 20px #fff;
+}
+.logo {
+    background:;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    margin:0 auto;
+    box-shadow: 0px 0px 2px #5f5f5f,0px 0px 0px 5px #ecf0f3,8px 8px 15px #a7aaaf,-8px -8px 15px #fff;
+}
+.title {
+    text-align: center;
+    font-size:30px;
+    padding-top:25px;
+    letter-spacing:0.5px;
+}.sub-title {
+    color:#FFD700 ;
+    text-align: center;
+    font-size:13px;
+    padding-top:8px;
+    letter-spacing:3px;
+}
+.fields{
+    width:100%;
+    
+    padding:60px 5px 5px 5px;
+}
+.fields input{
+    border:none;
+    outline:none;
+    background:none;
+    font-size:20px;
+    color:#555;
+    padding:10px 10px 10px 5px;
+}
+.username,.password{
+    margin-bottom:25px;
+    border-radius:20px;
+    box-shadow: 0px 0px 2px #5f5f5f,0px 0px 0px 5px #ecf0f3,8px 8px 15px #a7aaaf,-8px -8px 15px #fff;
+
+}
+.signin-button{
+    outline:none;
+    border:none;
+    curser:pointer;
+    width:60%;
+    height:100%;
+    border-radius:25px;
+    font-size:25px;
+    font:weight:700px;
+    font-family:"Lato",sans-serif;
+    color:#fff;
+    text-align:center;
+    background-color:#02c8db;
+    box-shadow:3px 3px 8px #b1b1b1,-3px -3px 8px #f;
+    text-decoration:none;
+    padding:15px;
+  
+
+}
+.container form .details{
+    margin-top:10px;
+}
+.container form .title{
+    font-size:16px;
+    font-weight:500;
+    margin:6px,0;
+    color:#333;
+}

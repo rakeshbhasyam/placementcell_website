@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Testing Form</title>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="form.css"
+    </head>
+    <body>
+        <div class="container">
+            <header>Registration</header>
+
+            <form action="#">
+                <div class="form first">
+                    <div class="personal-details">
+                        <span class="title">Personal Details</span>
+
+
+                        <div class="fields">
+                            <div class="input-field">
+                                
+                                <input type="text" placeholder="Enter Your Name" required/>
+                            </div>
+                            
+                            <div class="input-field">
+                                
+                                <input type="text" placeholder="Enter Your Email Address" required/>
+                            </div>
+                            <div class="input-field">
+                                
+                                <input type="text" placeholder="Enter Your Mobile Number" required/>
+                            </div>
+                            <div class="input-field">
+                                <label>LinkedIn</label>
+                                <input type="text" placeholder="Enter Your LinkedIn ID" required/>
+
+                            </div>
+                            <div class="flex justify-content justify-content-column">
+                            <div class="gender">
+                                <label>Gender:</label><br>
+                                <input type="radio"/>Male
+                                <input type="radio"/>Female
+                                <input type="radio">I Prefer not to Say<br>
+
+                            </div>
+                            <div class="input-field">
+                                <label class="input-field" font-weight="Bold">Graduation In</label>
+                                <SELECT class="input-field">
+                                    <option>ECE</option>
+                                    <option>CSE</option>
+                                    <option>CIVIL</option>
+                                    <option>MECH</option>
+                                    <option>MME</option>
+                                    <option>EEE</option>
+                                </select>
+
+                            </div>
+                            
+                            <div class="input-field">
+                                <label>Birthday</label><br  >
+                                <input type="date"required/>
+                            </div>
+                        </div>
+                        <div>
+                            <h2>Upload Your Photo</h2><br>
+                            <form action="image.php" method="POST" enctype="multiple/form-data">
+                                <input type="file" name="image"/>
+                                
+                                
+                            
+                        </div>
+                        
+                        </div>
+                    </div>
+
+                </div>
+                <p align="center">
+                    <button class="signin-button">Login</button>
+                    </p>
+                    </form>
+            </form>
+        </div>
+        
+    </body>
+    
+
+
+
+</html>

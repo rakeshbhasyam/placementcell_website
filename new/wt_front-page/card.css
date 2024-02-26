@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: 'Roboto',sans-serif;
+
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(rkvlogo.png);
+	background-position: center;
+	background-size: cover;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+}
+.row{
+	display: flex;
+	height: 88%;
+	align-items: center;
+}
+.col{
+	flex-basis: 50%;
+}
+
+
+h1{
+	color: #fff;
+	font-size: 70px;
+}
+p{
+	color: white;
+	font-size: 20px;
+	line-height: 15px;
+
+}
+button{
+	width:160px;
+	color: #000;
+	font-size: 12px;
+	padding: 12px 0;
+	background: $fff;
+	border: 0;
+	border-radius: 20px;
+	outline: none;
+	margin-top: 30px;
+}
+.card{
+	width: 200px;
+	height: 230px;
+	display: inline-block;	
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-position: center;
+	background-size: cover;
+	transition: transform o.5s;
+
+}
+.card1{
+		background-image:url('g1.png');
+	}
+.card2{
+		background-image:url('f1.jpeg');
+	}
+.card3{
+		background-image:url('Microsoftlogo.png');
+	}
+.card4{
+		background-image:url('Amazon.jpg');
+	}
+.card:hover{
+	transform: translateY(-10px);
+}
+h5{
+	color: #000;
+	text-shadow: 0 0 0 5px #999;
+}
+P{
+	color: #000;
+
+}
+nav{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: right;
+
+}
+nav img{
+	width: 150px;
+}
+.nav-links{
+	flex: 1;
+	text-align: right;
+
+}
+.nav-links ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+.nav-links ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px;
+}
+.nav-links ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #f44336;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+	width: 100%;
+
+}
+.text-box{
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.text-box h1{
+	font-size: 62px;
+}
+.text-box p{
+	margin: 10px 0 40px;
+	font-size: 14px;
+	color: #fff;
+}
+.button
+{
+	background-color: #55c2da;
+	border: none;
+	border-radius: 20px;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	cursor: pointer;
+
+}
+

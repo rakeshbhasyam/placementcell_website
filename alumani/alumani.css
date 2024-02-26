@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.hero{
+	background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('cse.jpg');
+	height: 120vh;
+	width: 100%;
+	position: relative;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.hero h1
+{
+	text-align: center;
+	padding-top:80px;
+	font-size: 40px;
+	color: #fff;
+}
+
+.slide-row
+{
+	display: flex;
+	width: 3200px;
+
+	
+}
+.slide-col
+{
+	width: 800px;
+	height: 400px;
+	position: relative;
+}
+.user-img
+{
+	position:center;
+	top: 0;
+	right: 0;
+	height: 100%;
+    
+}
+.user-img img
+{
+	height: 100%;
+	border-radius: 10px;
+
+
+}
+.user-text
+{
+	background: #2d3a59;
+	width: 350px;
+	height: 250px;
+	position: absolute;
+	left:0%;
+	top: 35%;
+	transform: translateY(-50%);
+	border-radius:10px;
+	color: #d3d4d6;
+	padding: 30px;
+	box-sizing: border-box;
+	z-index: 2;
+}
+.user-text p
+{
+	font-size: 18px;
+	line-height: 24px;
+
+}
+.user-text h3
+{
+	margin: 35px 0 5px;
+	color: #fff;
+
+}
+.container
+{
+	width: 800px;
+	height: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50px,-50px);
+}
+.indicator
+{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: -50px;
+}
+.btn
+{
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	margin: 4px;
+	border-radius: 15px;
+	background: #fff;
+	cursor: pointer;
+}
+.active
+{
+	width: 45px;
+}
+
+nav{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: right;
+
+}
+.nav-links{
+	flex: 1;
+	text-align: right;
+
+}
+.nav-links ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+.nav-links ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px;
+}
+.nav-links ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #f44336;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+	width: 100%;
+
+}
+.text-box{
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.text-box h1{
+	font-size: 62px;
+}
+.text-box p{
+	margin: 10px 0 40px;
+	font-size: 14px;
+	color: #fff;
+}
